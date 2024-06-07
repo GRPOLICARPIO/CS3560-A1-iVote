@@ -1,3 +1,5 @@
+// VotingSystemService manages the answers and the results
+
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -27,12 +29,10 @@ public class VotingSystemService {
                 return;
             }
         }
-
-        // record the student answers
         submissions.put(student.getId(), answers);
     }
 
-    // print the statistics of the submissions
+    // print statistics of the submissions
     public void printStatistics() {
         // initialize a map to count the results
         Map<String, Integer> resultCount = new HashMap<String, Integer>();
@@ -46,8 +46,6 @@ public class VotingSystemService {
                 resultCount.put(answer, resultCount.get(answer) + 1);
             }
         }
-
-        // print results
         for (String answer : resultCount.keySet()) {
             System.out.println(answer + " : " + resultCount.get(answer));
         }
