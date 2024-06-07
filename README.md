@@ -9,6 +9,6 @@
       javac StudentInfo.java QuestionInfo.java VotingSystemService.java SimulationController.java
 - Run the Program:
 
-    After compiling, run the SimulationDriver class:
+    After compiling, run the SimulationController class:
 
       java SimulationController
