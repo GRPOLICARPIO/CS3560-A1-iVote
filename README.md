@@ -1,5 +1,7 @@
 # CS3560-ASSIGNMENT-1
 
+This is Gabriel Policarpio's project repository for Assignment 1 of Yu Sun's CS3560 Summer '24
+
 ## Running my program:
 - Download all necessary files to one directory.
 - Compile the Java Files:
