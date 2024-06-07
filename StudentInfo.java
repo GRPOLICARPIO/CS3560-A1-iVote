@@ -1,3 +1,5 @@
+// StudentInfo class just defines and stores student ID
+
 public class StudentInfo {
     String id;
 
