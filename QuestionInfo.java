@@ -1,3 +1,5 @@
+// QuestionInfo class is for the questions - single or multiple choice etc.
+
 import java.util.List;
 
 public class QuestionInfo {
